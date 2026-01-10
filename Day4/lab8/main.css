@@ -1,0 +1,51 @@
+.container {
+    text-align: center;
+    margin-top: 50px;
+    width: 100%;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+label {
+    width: 60px; /* keeps labels aligned */
+    text-align: right;
+}
+
+input {
+    padding: 5px;
+    width: 200px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 70%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.error {
+    color: red;
+    font-size: 12px;
+    margin-left: 10px;
+}

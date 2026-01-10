@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Day4-lab8</title>
+</head>
+<style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #e6d40e;
+    }
+</style>
+<body>
+    
+    <div class="container">
+        <div class="input-field">
+            <div class="row">
+                <label for="nameInput">Name:</label>
+                <input type="text" id="nameInput">
+                <span class="error" id="nameError"></span>
+            </div>
+
+            <div class="row">
+                <label for="ageInput">Age:</label>
+                <input type="text" id="ageInput">
+                <span class="error" id="ageError"></span>
+            </div>
+
+            <div class="row">
+                <label for="emailInput">Email:</label>
+                <input type="text" id="emailInput">
+                <span class="error" id="emailError"></span>
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button id="addButton">Add</button>
+            <button id="resetButton">Reset</button>
+        </div>
+
+        <table id="userTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+
+            </tbody>
+        </table>
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
